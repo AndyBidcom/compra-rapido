@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  max-width:90%;
+}
+
+nav{
+  text-align: center;
+}
+.menu,
+.menu li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+  .menu li .nav-link{
+    color:rgba(255,255,255,.5);
+  }
+  .menu li .nav-link.active,
+  .menu li .nav-link:hover{
+    color:rgba(255,255,255,1);
+  }
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
