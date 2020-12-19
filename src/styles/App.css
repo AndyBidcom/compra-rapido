@@ -16,11 +16,11 @@ nav{
   margin:0;
 }
   .menu li .nav-link{
-    color:rgba(255,255,255,.5);
+    color:rgba(0,0,0,.5);
   }
   .menu li .nav-link.active,
   .menu li .nav-link:hover{
-    color:rgba(255,255,255,1);
+    color:rgba(0,0,0,1);
   }
 .App-link {
   color: #61dafb;

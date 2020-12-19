@@ -1,0 +1,14 @@
+.cart-icon{
+  width:26px;
+  display: block;
+  position: relative;
+}
+  .cart-icon img{
+    max-width:100%;
+    opacity: 0.8;
+  }
+  .cart-icon .quantity{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
