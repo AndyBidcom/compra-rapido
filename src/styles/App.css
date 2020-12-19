@@ -22,6 +22,9 @@ nav{
   .menu li .nav-link:hover{
     color:rgba(0,0,0,1);
   }
+.menu .navbar-text{
+  margin-right:10px;
+}
 .App-link {
   color: #61dafb;
 }

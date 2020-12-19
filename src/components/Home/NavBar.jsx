@@ -17,7 +17,7 @@ function NavBar(){
                 <NavItem link="https://www.google.com" name="Baño"/>
               </ul>
               <div className="navbar-text">
-                <CartWidget quantity="2"/>
+                <CartWidget quantity="1"/>
               </div>              
             </nav>
           </div>
