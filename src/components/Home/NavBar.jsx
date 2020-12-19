@@ -1,13 +1,22 @@
+import logo from '../../logo.svg';
+import NavItem from './NavItem.jsx';
 function NavBar(){
     return(  
-      <nav className="navbar navbar-dark bg-primary">
-        <ul class="menu row">
-          <li class="col"><a class="navbar-brand" href="#">Proyecto Ecommerce Compraland</a></li>        
-          <li class="col"><a class="nav-link active" href="#">Home</a></li>
-          <li class="col"><a class="nav-link" href="#">Link</a></li>
-          <li class="col"><a class="nav-link" href="#">Link</a></li>
-        </ul>
-      </nav>          
+      <header class="container">
+        <div className="row">
+          <div className="col-2"><img src={logo} className="App-logo" alt="logo" /></div>
+          <div className="col-10">      
+            <nav className="navbar navbar-dark bg-primary">
+              <ul class="menu row">
+                <NavItem name="Cocina" clase="nav-link active" />
+                <NavItem link="https://www.google.com" name="Deco"/>
+                <NavItem link="https://www.google.com" name="Dormitorio"/>
+                <NavItem link="https://www.google.com" name="Baño"/>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>          
     )
 }
 export default NavBar;
