@@ -12,13 +12,12 @@ const ItemCount = () => {
     }    
     const ManualQuantity = (e) => {
         if (e.target.validity.valid){
-            if(e.target.value == '' || e.target.value < 1){
+            if(e.target.value === '' || e.target.value < 1){
                 setQuantity(1);
             }else{
                 setQuantity(e.target.value);
             }            
         }
-        //setQuantity(e.target.value);
     }
     return (
         <>

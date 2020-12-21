@@ -5,12 +5,12 @@ import Modal from '../General/modal.jsx';
 import '../../styles/Cart.css';
 function NavBar(){
     return(  
-      <header class="container">
+      <header className="container">
         <div className="row no-gutters">
           <div className="col-2"><img src={logo} className="App-logo" alt="logo" /></div>
           <div className="col-10">      
             <nav className="navbar navbar-light bg-light">
-              <ul class="menu row">
+              <ul className="menu row">
                 <NavItem name="Cocina" clase="nav-link active" />
                 <NavItem link="https://www.google.com" name="Deco"/>
                 <NavItem link="https://www.google.com" name="Dormitorio"/>

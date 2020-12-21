@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <footer className="text-center">contenido del footer</footer>
+        <footer className="text-center"></footer>
     )
 }
 export default Footer;
