@@ -17,6 +17,33 @@
     .item-list .price-item{
         font-size: 20px;
     }
-    .item-list:hover{
+    .item-list a:hover{
         text-decoration: none;
+    }
+.item-count{
+    border:1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 4px;
+    width:50%;
+    margin:15px auto;
+}
+.btn-count{
+    border:0;
+    background: transparent;
+    font-weight: 600;
+    font-size: 25px;
+    color:#007bff;
+}
+.btn-less1{
+    color:#999;
+    cursor: unset!important;
+}
+.input-count{
+    border:0px;    
+    outline: none;
+    text-align:center;
+}
+    .btn-count:focus,
+    .input-count:focus{
+        outline: none;
     }
