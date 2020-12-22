@@ -13,6 +13,7 @@ const ItemListContainer = () =>{
             price:4499,
             link:'#',
             photo:'https://i.pinimg.com/564x/e5/11/f2/e511f2e19bcd96e872fc889c51e82d1b.jpg',
+            stock:3,
         },
         {
             id:2,
@@ -20,6 +21,7 @@ const ItemListContainer = () =>{
             price:4799,
             link:'#',
             photo:'https://i.pinimg.com/564x/e5/11/f2/e511f2e19bcd96e872fc889c51e82d1b.jpg',
+            stock:17,
         },
         {
             id:3,
@@ -27,6 +29,7 @@ const ItemListContainer = () =>{
             price:4999,
             link:'#',
             photo:'https://i.pinimg.com/564x/e5/11/f2/e511f2e19bcd96e872fc889c51e82d1b.jpg',
+            stock:12,
         },
         {
             id:4,
@@ -34,6 +37,7 @@ const ItemListContainer = () =>{
             price:3499,
             link:'#',
             photo:'https://i.pinimg.com/564x/e5/11/f2/e511f2e19bcd96e872fc889c51e82d1b.jpg',
+            stock:31,
         },        
     ]
 
@@ -58,7 +62,8 @@ const ItemListContainer = () =>{
                             title={item.title} 
                             price={item.price} 
                             link={item.link} 
-                            photo={item.photo} 
+                            photo={item.photo}
+                            stock={item.stock} 
                         />
                     )) : 
                     <div className="container">

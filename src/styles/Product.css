@@ -34,7 +34,8 @@
     font-size: 25px;
     color:#007bff;
 }
-.btn-less1{
+.btn-less1,
+.btn-disabled{
     color:#999;
     cursor: unset!important;
 }
