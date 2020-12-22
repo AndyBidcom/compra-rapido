@@ -4,7 +4,8 @@
 .item-list{
     padding: 0 30px;
 }
-    .item-list img{
+    .item-list img,
+    .photo-detail img{
         max-width:100%;
         text-align: center;
     }
@@ -48,3 +49,21 @@
     .input-count:focus{
         outline: none;
     }
+
+    .detail-content h1{
+        font-size: 24px;
+        font-weight: 600;
+        color:#333;
+    }
+    .detail-content .price-item{
+        font-size: 33px;
+        font-weight: 300;
+    }
+    .detail-content .stock{
+        font-size:15px;
+        color:#999;
+        margin-bottom:-5px;
+    }
+.separador{
+    height:40px;
+}

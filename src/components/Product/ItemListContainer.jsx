@@ -38,6 +38,7 @@ const ItemListContainer = () =>{
             link:'#',
             photo:'https://i.pinimg.com/564x/e5/11/f2/e511f2e19bcd96e872fc889c51e82d1b.jpg',
             stock:31,
+            discount:'20% OFF',
         },        
     ]
 
@@ -64,6 +65,7 @@ const ItemListContainer = () =>{
                             link={item.link} 
                             photo={item.photo}
                             stock={item.stock} 
+                            discount={item.discount}
                         />
                     )) : 
                     <div className="container">
