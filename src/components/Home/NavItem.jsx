@@ -1,4 +1,6 @@
+import {Link} from 'react-router-dom';
+
 const NavItem = ({link='#',name,clase='nav-link'}) =>(
-  <li className="col"><a className={clase} href={link}>{name}</a></li>
+  <li className="col"><Link className={clase} to={link}>{name}</Link></li>
 )
 export default NavItem;

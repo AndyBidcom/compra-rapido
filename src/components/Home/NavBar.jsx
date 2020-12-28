@@ -1,20 +1,21 @@
 import logo from '../../logo.svg';
 import NavItem from './NavItem.jsx';
 import CartWidget from '../General/CartWidget.jsx';
-import Modal from '../General/modal.jsx';
 import '../../styles/Cart.css';
+import {Link} from 'react-router-dom';
+
 function NavBar(){
     return(  
       <header className="container">
         <div className="row no-gutters">
-          <div className="col-2"><img src={logo} className="App-logo" alt="logo" /></div>
+          <div className="col-2"><Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link></div>
           <div className="col-10">      
             <nav className="navbar navbar-light bg-light">
               <ul className="menu row">
-                <NavItem name="Cocina" clase="nav-link active" />
-                <NavItem link="https://www.google.com" name="Deco"/>
-                <NavItem link="https://www.google.com" name="Dormitorio"/>
-                <NavItem link="https://www.google.com" name="Baño"/>
+                <NavItem link="/category/cocina" name="Cocina" clase="nav-link active" />
+                <NavItem link="/category/deco" name="Deco"/>
+                <NavItem link="/category/dormitorio" name="Dormitorio"/>
+                <NavItem link="/category/bano" name="Baño"/>
               </ul>
               <div className="navbar-text">
                 <CartWidget quantity="1"/>

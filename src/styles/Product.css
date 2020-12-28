@@ -2,11 +2,14 @@
     margin:35px 0;
 }
 .item-list{
-    padding: 0 30px;
+    padding: 20px 40px;
 }
-    .item-list img,
+    .item-list .btn-secondary{
+        margin-top:5px;
+    }
     .photo-detail img{
         max-width:100%;
+        max-height: 320px;
         text-align: center;
     }
     .item-list h3{
@@ -21,6 +24,16 @@
     .item-list a:hover{
         text-decoration: none;
     }
+.img-list-container{
+        height:200px;
+        text-align:center
+}
+    .img-list-container img{
+        text-align:center;
+        width: 90%;
+        height: 90%;    
+        object-fit: contain;    
+    }    
 .item-count{
     border:1px solid #ccc;
     border-radius: 4px;
@@ -66,4 +79,11 @@
     }
 .separador{
     height:40px;
+}
+.title-category{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #333;
+    display:block;
+    text-align: center;
 }
